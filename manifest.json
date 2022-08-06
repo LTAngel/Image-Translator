@@ -1,0 +1,13 @@
+{
+    "name": "Image Translator",
+    "description": "Translate text within images back onto the page",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action":{
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "service_worker": "background.js",
+    "permission": ["https://*/*", "http://*/*", "tabs", "storage", "activeTab"]
+  }
+}
