@@ -1,13 +1,42 @@
 {
-    "name": "Image Translator",
-    "description": "Translate text within images back onto the page",
-    "version": "1.0",
     "manifest_version": 3,
-    "action":{
-      "default_popup": "popup.html"
-    },
+    "name": "imgTL",
+    "version": "1.0",
+    "description": "read images and translate them to specified languages",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "css": [
+                "contentStyle.css"
+            ],
+            "js": [
+                "contentScript.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "fontFiles/*"
+            ],
+            "matches": ["<all_urls>"]
+        }
+    ],
     "background": {
-      "service_worker": "background.js",
-    "permission": ["https://*/*", "http://*/*", "tabs", "storage", "activeTab"]
-  }
+        "service_worker": "./background.js"
+    },
+    "permissions": [
+        "storage",
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "action": {
+        "default_popup": "popup.html"
+    }
 }

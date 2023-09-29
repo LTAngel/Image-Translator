@@ -1,0 +1,62 @@
+.draggable {
+  position: absolute;
+  z-index: 9;
+  background-color: white;
+  text-align: center;
+  color: black;
+
+}
+
+
+@font-face {
+  font-family: 'Manga Temple';
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/MangaTemple.eot');
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/MangaTemple.eot?#iefix') format('embedded-opentype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/MangaTemple.woff2') format('woff2'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/MangaTemple.woff') format('woff'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/MangaTemple.ttf') format('truetype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/MangaTemple.svg#MangaTemple') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Felt';
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/FeltRegular.eot');
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/FeltRegular.eot?#iefix') format('embedded-opentype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/FeltRegular.woff2') format('woff2'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/FeltRegular.woff') format('woff'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/FeltRegular.ttf') format('truetype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/FeltRegular.svg#FeltRegular') format('svg');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'augie';
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/Augie.eot');
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/Augie.eot?#iefix') format('embedded-opentype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/Augie.woff2') format('woff2'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/Augie.woff') format('woff'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/Augie.ttf') format('truetype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/Augie.svg#Augie') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Wild Words';
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/WildWordsRoman.eot');
+  src: url('chrome-extension://__MSG_@@extension_id__/fontFiles/WildWordsRoman.eot?#iefix') format('embedded-opentype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/WildWordsRoman.woff2') format('woff2'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/WildWordsRoman.woff') format('woff'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/WildWordsRoman.ttf') format('truetype'),
+      url('chrome-extension://__MSG_@@extension_id__/fontFiles/WildWordsRoman.svg#WildWordsRoman') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
